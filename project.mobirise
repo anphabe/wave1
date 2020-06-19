@@ -14,7 +14,7 @@
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Open Sans",
-        "display1Size": "3.2",
+        "display1Size": "4",
         "display2Font": "Open Sans",
         "display2Size": "2.4",
         "display5Font": "Open Sans",
@@ -518,7 +518,7 @@
             },
             "H3": {
               "text-align": "left",
-              "color": "#232323"
+              "color": "#ffffff"
             },
             ".header1 .cid-s1WYfF6hSw": {
               "padding-top": "170px!important",

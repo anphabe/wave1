@@ -34,6 +34,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MT28LD');</script>
 <!-- End Google Tag Manager -->
+<script>
+function keep_url_query(){
+    var query = window.location.search;
+  (function(query) {
+   var atags = document.getElementsByTagName("a"); 
+   var i;
+   for (i = 0; i < atags.length; i++) {
+      atags[i].href = atags[i].href+query;  
+  //    atags[i].classList.add("d-inline-block");
+   } 
+    
+  })(query);
+}
+
+if (
+    document.readyState === "complete" ||
+    (document.readyState !== "loading" && !document.documentElement.doScroll)
+) {
+  keep_url_query();
+} else {
+  document.addEventListener("DOMContentLoaded", keep_url_query);
+}
+ 
+</script>
 <!-- /Analytics -->
 
 
@@ -70,7 +94,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </section>
 
 <section class="engine"><a href="https://mobirise.info/d">website maker</a></section><section class="mbr-section content5 cid-s2fRpPUyal mbr-parallax-background" id="content5-2o">
-
     
 
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">

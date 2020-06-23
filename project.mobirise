@@ -833,6 +833,9 @@
               "font-family": "'Open Sans', sans-serif",
               "text-align": "left"
             },
+            "ul": {
+              "padding-left": "21px"
+            },
             "ul li": {
               "color": "#4e4d4d",
               "font-family": "'Open Sans', sans-serif",

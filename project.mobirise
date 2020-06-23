@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site-clone",
-    "currentPage": "thongtinquatang.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -91,7 +91,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner-1.jpg"
       },
       "components": [
         {
@@ -1324,7 +1324,7 @@
         "footer_custom": "",
         "html_before": "",
         "order": 1,
-        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner-1.jpg"
       },
       "components": [
         {

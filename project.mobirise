@@ -91,7 +91,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner-1.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner-2.jpg"
       },
       "components": [
         {
@@ -1324,7 +1324,7 @@
         "footer_custom": "",
         "html_before": "",
         "order": 1,
-        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner-1.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-banner-2.jpg"
       },
       "components": [
         {

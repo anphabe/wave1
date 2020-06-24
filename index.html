@@ -43,7 +43,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
 function keep_url_query(){
     var url = window.location.href;
-    var query = url.substring(url.indexOf('?'));
+   var index = url.indexOf('?');
+   if(index < 0) {
+       return;
+   }
+    var query = url.substring(index);
   (function(query) {
    var atags = document.getElementsByTagName("a"); 
    var i;
@@ -100,7 +104,7 @@ if (
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/b">create your own site for free</a></section><section class="header1 cid-s1WYfF6hSw mbr-parallax-background" id="header1-d">
+<section class="engine"><a href="https://mobirise.info/p">site templates free download</a></section><section class="header1 cid-s1WYfF6hSw mbr-parallax-background" id="header1-d">
 
     
 

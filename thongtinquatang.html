@@ -42,7 +42,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
 function keep_url_query(){
     var url = window.location.href;
-    var query = url.substring(url.indexOf('?'));
+   var index = url.indexOf('?');
+   if(index < 0) {
+       return;
+   }
+    var query = url.substring(index);
   (function(query) {
    var atags = document.getElementsByTagName("a"); 
    var i;
@@ -99,7 +103,7 @@ if (
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/h">how to create your own web page</a></section><section class="mbr-section content5 cid-s2fRpPUyal mbr-parallax-background" id="content5-2o">
+<section class="engine"><a href="https://mobirise.info/d">free website maker</a></section><section class="mbr-section content5 cid-s2fRpPUyal mbr-parallax-background" id="content5-2o">
 
     
 
